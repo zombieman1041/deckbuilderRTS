@@ -1,10 +1,10 @@
 local modinfo = {
-	name = "ABC - C(hili UI Framework)",
-	shortname = "C",
-	game = "SpringABC",
-	shortgame = "ABC",
-	description = "Game with directory structure + major files + Chili UI Framework",
-	url = "http://www.springrts.com/wiki/SpringABC",
+	name = "deckbuilderRTS",
+	shortname = "dbRTS",
+	game = "deckbuilderRTS",
+	shortgame = "dbRTS",
+	description = "Spring RTS video game by Blake Dayman and Ethan Chen that provides a twist to the Real Time Strategy genre by introducing a deck building element as a core mechanic to the game.",
+	url = "https://github.com/zombieman1041/deckbuilderRTS",
 	
 	modtype = 1,
 
