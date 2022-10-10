@@ -10,6 +10,7 @@ local modinfo = {
 
 	depend = {
 		"Spring Cursors",
+		
 	}
 }
 

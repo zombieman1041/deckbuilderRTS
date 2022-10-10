@@ -1,11 +1,8 @@
---Wiki: http://springrts.com/wiki/Sidedata.lua
-
-local sideData = {
-	--[[ Example:
+--http://springrts.com/wiki/Sidedata.lua
+local sidedata = {
 	{
-		name = "Totally Radical Dudes",
-		startUnit = "Radical Dude Meister",
-	},
-	--]]
+	name = "SpringPeople",
+	startUnit = "simplehover",
+	}
 }
-return sideData
+return sidedata

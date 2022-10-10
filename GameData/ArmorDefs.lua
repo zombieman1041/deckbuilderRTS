@@ -1,16 +1,17 @@
--- Wiki: http://springrts.com/wiki/Armordefs.lua
--- See also; http://springrts.com/wiki/Units-WeaponDefs#damage
-
 local armorDefs = {
-	--[[ Example:
-	tanks = {
-		"supertank",
-		"megatank",
-	},
+heavyarmor = {
+	"simplefactory",
+	"buildervehicle",
+},
 
-	infantry = {
-		"dude",
-	},
-	--]]
 }
+
+for categoryName, categoryTable in pairs(armorDefs) do
+  local t = {}
+  for _, unitName in pairs(categoryTable) do
+    t[unitName] = 1
+  end
+  armorDefs[categoryName] = t
+end
+
 return armorDefs
